@@ -9,4 +9,5 @@ var competitionSchema = new Schema({
     deletedAt: { type: Date }
 });
 
+
 module.exports = mongoose.model('Competition', competitionSchema);
